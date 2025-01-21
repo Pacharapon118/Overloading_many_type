@@ -10,7 +10,7 @@ int mul(int a,int b){
 
 }
 
-float mul(float a,int b){
+float mul(double a,int b){
 
     return a * b;
 
@@ -19,7 +19,7 @@ float mul(float a,int b){
 int main()
 {
     int a,b,d;
-    float c;
+    double c;
 
     cout << "Enter integer 2 number to multiply" << endl;
     cin >> a;
